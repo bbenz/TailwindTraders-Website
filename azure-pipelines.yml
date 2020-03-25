@@ -6,6 +6,8 @@
 trigger:
 - master
 
+pr: none
+
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
