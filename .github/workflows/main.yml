@@ -23,10 +23,10 @@ jobs:
       with:
         dotnet-version: 2.1.x  
 
-    - name: Setup Node 14
+    - name: Setup Node 10
       uses: actions/setup-node@v1
       with:
-       node-version: '14'
+       node-version: 10.x
 
     - name: Install dependencies
       run: dotnet restore ./Source/*.sln
